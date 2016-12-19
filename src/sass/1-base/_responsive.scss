@@ -1,0 +1,562 @@
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.wrapper {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+	.main-content {
+		.video-div {
+			width: 35%;
+			padding: 20px 20px 0 20px;
+			.video {
+				video {
+					width: 100%;
+
+				}
+			}
+		}
+		.left-content {
+			width: 65%;
+			padding: 20px;
+			article {
+				section.notext {
+					height: auto;
+					padding: 35px;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+		.right-column {
+			width: 35%;
+			padding: 0px 20px 9999px 20px;
+			section {
+				margin-bottom: 15px;
+			}
+			section.edit {
+				padding: 10px 15px;
+			}
+		}
+	}
+
+	footer.objave {
+		.left-objave {
+			width: 65%;
+
+		}
+
+		.right-objave {
+			width: 35%;
+		}
+		.left-objave, .right-objave {
+			h4 {
+				margin: 0;
+				padding-left: 55px;
+				&:before {
+					left: 20px;
+				}
+			}
+			.column1, .column2 {
+				padding: 20px;
+			}
+
+		}
+
+	}
+
+	.copyright {
+		.copy-left {
+			width: 65%;
+			padding: 10px 20px;
+		}
+		.copy-right {
+			width: 35%;
+			padding: 10px 20px;
+		}
+	}
+
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.wrapper {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+	.main-content {
+		.left-content {
+			width: 100%;
+			float: none;
+			border-right: 1px solid $greya;
+
+			article {
+				section.notext {
+					height: auto;
+					padding: 55px ;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+		.video-div {
+			width: 100%;
+			float: none;
+			padding: 30px 30px 0 30px;
+			.video {
+				video {
+					width: 100%;
+
+				}
+			}
+			button {
+				margin-left: 10px;	
+			}
+		}
+
+		.right-column {
+			width: 100%;
+			float: none;
+			padding: 20px 20px 9999px 20px;
+			section {
+				margin-bottom: 15px;
+			}
+			section.edit {
+				padding: 10px 15px;
+			}
+		}
+	}
+
+	footer.objave {
+		.left-objave, .right-objave {
+			width: 100%;
+			float: none;
+			overflow: auto;
+			h4 {
+				margin: 0;
+				padding-left: 55px;
+				&:before {
+					left: 20px;
+				}
+			}
+			.column1, .column2 {
+				padding: 20px;
+			}
+
+		}
+		.right-objave {
+			padding-top: 0px;
+		}
+		.left-objave {
+			padding-top: 10px;
+		}
+
+		.naslov-objave {
+			display: none;
+		}
+
+		.accordion-header1, .accordion-header2 {
+			display: block;
+			padding: 5px;
+		}
+
+	}
+
+	.copyright {
+		.copy-left {
+			width: 80%;
+			padding: 10px 0px 10px 15px;
+		}
+		.copy-right {
+			width: 20%;
+			padding: 10px 15px 10px 0px;
+		}
+	}
+
+}
+
+@media (max-width: $screen-xs-max) { 
+	.wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+ 	.header {
+	
+		.logo {
+			img {
+			margin-right: 20px;
+			}
+
+	}
+
+	.pblink {
+		a {
+			display: inline-block;
+			padding-left: 15px;
+			padding-right: 15px;
+			}
+		}
+	}
+
+	.header-title {
+		.left-items {
+			width: 100%;
+		}
+		.right-icons {
+			width: 100%;
+			float: none;
+			text-align: left;
+			padding-top: 10px;
+		}
+	}
+
+	.main-content {
+		.video-div {
+			width: 100%;
+			float: none;
+			padding: 20px 20px 0 20px;
+			.video {
+				video {
+					width: 100%;
+
+				}
+			}
+			button {
+				margin-left: 10px;
+			}
+		}
+		.left-content {
+			width: 100%;
+			float: none;
+			border-right: 1px solid $greya;
+		}
+		.right-column {
+			width: 100%;
+			float: none;
+			padding: 20px 20px 9999px 20px;
+			section {
+				margin-bottom: 15px;
+			}
+			section.edit {
+				padding: 10px 15px;
+			}
+		}
+
+		.notext {
+			article {
+			section.notext {
+				height: auto;
+				padding: 15px ;
+				img {
+					width: 100%;
+					}
+				}
+			}
+		}
+
+	}
+
+	.popupbox {
+		padding: 10px 0;
+		.content {
+			label {
+				padding-left: 10px;
+			}
+			input[type="text"] {
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			div.checkbox {
+				margin-left: 25px;
+				label {
+					left: -15px;
+				}
+			}
+		}
+		.title p {
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-bottom: 10px;
+		}
+		.action-buttons {
+			padding-top: 10px;
+			.button-left {
+				padding-left: 10px;
+				padding-right: 5px;
+			}
+			.button-right {
+				padding-left: 5px;
+				padding-right: 10px;
+			}
+		}
+	}
+
+	.popupbox#edit {
+		padding: 15px 0 10px 0;
+		.content {
+			padding-left: 20px;
+		}
+		.title p {
+			padding-left: 40px;
+			&:before {
+				left: 10px;
+			}
+		}
+
+		.action-buttons {
+
+			.kreiraj-folder {
+				padding: 0 10px 10px 10px;
+			}
+			.button-left {
+				padding-left: 10px;
+				padding-right: 5px;
+			}
+			.button-right {
+				padding-left: 5px;
+				padding-right: 10px;
+			}
+		}
+	}
+
+	footer.objave {
+		.left-objave, .right-objave {
+			width: 100%;
+			float: none;
+			overflow: auto;
+			h4 {
+				margin: 0;
+				padding-left: 55px;
+				&:before {
+					left: 20px;
+				}
+			}
+			.column1, .column2 {
+				padding: 20px;
+			}
+		}
+		.right-objave {
+			padding-top: 0px;
+		}
+
+		.left-objave {
+			padding-top: 10px;
+		}
+
+		.naslov-objave {
+			display: none;
+		}
+
+		.accordion-header1, .accordion-header2 {
+			display: block;
+			padding: 5px;
+		}
+
+	}
+
+	.copyright {
+		.copy-left, .copy-right {
+			width: 100%;
+			float: none;
+			text-align: center;
+			padding: 5px 5px 0 5px;
+		}
+	}
+}
+
+@media (max-width: 478px)  {
+	.wrapper {
+		width: 100%;
+		margin: 0 auto;
+		.row {
+			margin: 0;
+		}
+	}
+
+ 	.header {
+ 		.wrapper {
+			padding-left: 10px;
+		}
+		.logo {
+		width: 100%;
+			img {
+				margin-right: 10px;
+			}
+		
+		}
+	.pblink {
+		display: block;
+		width: 100%;
+		text-align: left;
+		a {
+			border-left: none;
+			//border-right: 1px solid #c30006;
+			padding: 10px 10px 10px 0;
+			}
+		}
+	}
+
+	.header-title {
+		.wrapper {
+			padding: 10px 0 0 0;
+		}
+		.right-icons {
+			float: none;
+		}
+	}
+
+	.main-content {
+		.wrapper {
+			padding: 0;
+		}
+		.video-div {
+			width: 100%;
+			float: none;
+			padding: 10px 10px 0 10px;
+			.video {
+				video {
+					width: 100%;
+				}
+			}
+		}
+		.left-content {
+			width: 100%;
+			float: none;
+			border-right: 1px solid $greya;
+			padding: 10px;
+		}
+		.right-column {
+			width: 100%;
+			float: none;
+			padding: 10px 10px 9999px 10px;
+
+		}
+
+		.notext {
+			article {
+			section.notext {
+				height: auto;
+				padding: 15px ;
+				img {
+					width: 100%;
+					}
+				}
+			}
+		}
+
+	}
+
+	.popupbox {
+		min-width: 200px;
+		max-width: 320px;
+		width: 100%;
+		padding: 10px 0;
+		margin-left: 10px;
+		margin-right: 10px;
+		.content {
+			label {
+				padding-left: 10px;
+			}
+			input[type="text"] {
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			div.checkbox {
+				margin-left: 25px;
+				label {
+					left: -15px;
+				}
+			}
+		}
+		.title p {
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-bottom: 10px;
+		}
+		.action-buttons {
+			padding-top: 10px;
+			.button-left {
+				padding-left: 10px;
+				padding-right: 5px;
+			}
+			.button-right {
+				padding-left: 5px;
+				padding-right: 10px;
+			}
+		}
+	}
+
+	.popupbox#edit {
+		.content {
+			padding-left: 20px;
+		}
+		.title p {
+			padding-left: 40px;
+			&:before {
+				left: 10px;
+			}
+		}
+
+		.action-buttons {
+
+			.kreiraj-folder {
+				padding: 0 10px 10px 10px;
+			}
+			.button-left {
+				padding-left: 10px;
+				padding-right: 5px;
+			}
+			.button-right {
+				padding-left: 5px;
+				padding-right: 10px;
+			}
+		}
+	}
+
+	footer.objave {
+		.left-objave, .right-objave {
+			width: 100%;
+			float: none;
+			h4 {
+				margin: 0;
+				padding-left: 45px;
+				&:before {
+					left: 10px;
+				}
+			}
+			.column1, .column2 {
+			padding: 10px;
+			}
+		}
+		
+		.right-objave {
+			padding-top: 0px;
+		}
+		.left-objave {
+			padding-top: 10px;
+			border-right: none;
+		}
+
+		.naslov-objave {
+			display: none;
+		}
+
+		.accordion-header1, .accordion-header2 {
+			display: block;
+			padding: 5px;
+		}
+
+	}
+
+	.copyright {
+		.copy-left, .copy-right {
+			width: 100%;
+			float: none;
+			text-align: center;
+			padding: 0;
+		}
+	}
+
+}

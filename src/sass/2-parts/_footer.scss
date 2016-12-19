@@ -1,0 +1,82 @@
+.objave {
+	.wrapper {
+		background-color: $greyc;
+	}
+	.left-objave {
+		padding-top: 30px;
+		width: 740px;
+		float: left;
+		border-right: 1px solid $greyb;
+		h4 {
+			margin-bottom: 25px;
+			&:before {
+				content: "";
+				display: block;
+				background-image: url('../img/footer-inst.png');
+				width: 24px;
+				height: 24px;
+				position: absolute;
+				top:0;
+				left: 35px;
+			}
+		}
+	}
+	.right-objave {
+		width: 450px;
+		float: left;
+		padding-top: 30px;
+		h4 {
+		padding-left: 80px;
+		margin-bottom: 25px;
+			&:before {
+				content: "";
+				display: block;
+				background-image: url('../img/footer-osobe.png');
+				width: 30px;
+				height: 24px;
+				position: absolute;
+				top:0;
+				left: 40px;
+			}
+		}
+	}
+	h4 {
+		color: $greya;
+		font-weight: 400;
+		position: relative;
+		padding-left: 70px;
+	}
+	p.heading {
+		color: $greya;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	p {
+		color: $greya;
+		margin-bottom: 0px;
+	}
+	.column1 {
+			width: 50%;
+			float: left;
+			padding: 40px;
+			padding-top: 0;
+		
+		}
+	.column2 {
+			width: 50%;
+			float: right;
+			padding: 40px;
+			padding-top: 0;
+		}
+	
+}
+
+.accordion-header1, .accordion-header2 {
+	display: none;
+	cursor: pointer;
+}
+
+.accordion-body1, .accordion-body2 {
+	display: none;
+	cursor: auto;
+}

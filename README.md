@@ -1,1 +1,1 @@
-BildStudio Angular starter kit 
+Angular starter kit 

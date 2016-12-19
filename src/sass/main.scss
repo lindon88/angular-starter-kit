@@ -1,0 +1,41 @@
+/*
+ * Klijent
+ * Copyright 2015 Bild Studio
+ * Autor Nenad Pejovic
+ * Datum 07/07/2015
+ */
+
+// Import custom Bootstrap variables
+@import "0-plugins/bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "0-plugins/bootstrap";
+
+// Import Compass
+//@import "compass";
+
+// Import Base
+@import "1-base/fonts";
+@import "1-base/vars";
+@import "1-base/base";
+
+// Import Slick slider
+@import "0-plugins/slick";
+
+// Import Sprites for Sass
+// @import "0-plugins/sprites";
+
+// Import Parts
+@import "2-parts/header";
+@import "2-parts/main-content";
+@import "2-parts/footer";
+@import "2-parts/copyright";
+
+// Import Pages
+@import "3-pages/pocetna";
+@import "3-pages/kategorija";
+@import "3-pages/otvorena";
+@import "3-pages/kontakt";
+
+// Import Responsive
+@import "1-base/responsive";

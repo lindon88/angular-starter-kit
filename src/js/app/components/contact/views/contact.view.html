@@ -1,0 +1,24 @@
+<div>
+  <div class="panel panel-warning">
+    <div class="panel-heading">Contact</div>
+    <div class="panel-body">
+      <a style="display: block;" ui-sref="home">Index</a>
+      <a style="display: block;" ui-sref="contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="panel panel-warning">
+    <div class="panel-heading">Contact form</div>
+    <div class="panel-body">
+      <form
+        autocomplete="off"
+        id="{{ctrlContact.formId}}"
+        name="{{ctrlContact.formId}}"
+        sf-schema="ctrlContact.schema"
+        sf-form="ctrlContact.form"
+        sf-model="ctrlContact.model"
+        ng-submit="ctrlContact.onSubmit(contactForm)">
+      </form>
+    </div>
+  </div>
+</div>
